@@ -1,0 +1,7 @@
+
+<h1>Safari Packages</h1>
+<ul>
+{% for p in collections.packages %}
+  <li><a href="{{ p.url }}">{{ p.data.title }} — ${{ p.data.price }} ({{ p.data.duration }} days)</a></li>
+{% endfor %}
+</ul>

@@ -1,0 +1,9 @@
+
+<article>
+  <h1>{{ title }}</h1>
+  {% if image %}
+    <img src="{{ image }}" alt="{{ title }}" style="max-width:600px;">
+  {% endif %}
+  <p>{{ summary }}</p>
+  <div>{{ content | safe }}</div>
+</article>

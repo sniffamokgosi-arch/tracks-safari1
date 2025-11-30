@@ -1,0 +1,13 @@
+{
+  "name": "tracks-adventure-eleventy",
+  "version": "1.0.0",
+  "description": "Tracks Adventure Safaris - Eleventy site converted from HTML. Build with `eleventy`.",
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy-img": "^1.11.0"
+  }
+}
