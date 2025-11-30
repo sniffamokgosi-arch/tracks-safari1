@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: default.njk
 title: "Kalahari"
 permalink: /kalahari/
 ---
